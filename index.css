@@ -1,0 +1,286 @@
+/*body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-color: #F8F8F8;
+}*/
+
+button {
+filter: drop-shadow(1px 1px 0.5px #fff);
+
+background: #1B244A;
+
+}
+
+.scoreboard {
+box-sizing: border-box;
+
+position: relative;
+width: 575px;
+height: 385px;
+
+background: #1B244A;
+}
+
+.home-title{
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.home-panel {
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+
+background: #080001;
+border-radius: 5px;
+}
+
+.home-count {
+position: absolute;
+width: 117px;
+height: 120px;
+left: 100px;
+top: 125px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: rgb(253, 72, 72);
+}
+
+.home-count-lead {
+    color: rgb(0, 187, 0)
+}
+
+.home-btn-plus-one {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 82px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+.home-btn-plus-two {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 136px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+.home-btn-plus-three {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 192px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+.guest-title{
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.guest-panel {
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+
+background: #080001;
+border-radius: 5px;
+}
+
+.guest-count {
+position: absolute;
+width: 117px;
+height: 120px;
+left: 355px;
+top: 125px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: rgb(253, 72, 72);
+}
+
+.guest-count-lead {
+    color: rgb(0, 187, 0)
+}
+
+.guest-btn-plus-one {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 337px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+}
+
+.guest-btn-plus-two {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 391px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+}
+
+.guest-btn-plus-three {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 447px;
+top: 271px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+}
+
+.home-btn-plus-one:hover,
+.home-btn-plus-two:hover,
+.home-btn-plus-three:hover,
+.guest-btn-plus-one:hover,
+.guest-btn-plus-two:hover,
+.guest-btn-plus-three:hover {
+    cursor: pointer
+}
+
+.home-btn-plus-one:active,
+.home-btn-plus-two:active,
+.home-btn-plus-three:active,
+.guest-btn-plus-one:active,
+.guest-btn-plus-two:active,
+.guest-btn-plus-three:active {
+    background-color: rgba(255, 0, 0, 0.623);
+}
