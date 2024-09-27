@@ -1,11 +1,11 @@
-/*body {
+body {
 height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
 
 background-color: #F8F8F8;
-}*/
+}
 
 button {
 filter: drop-shadow(1px 1px 0.5px #fff);
